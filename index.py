@@ -86,7 +86,6 @@ def predict_habitos_vida():
     return jsonify(status='Prediccion completada', prediccion = resul)
 
 
-if __name__=='__main__':
-    app.run(debug=True)
+
     
 
